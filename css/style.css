@@ -61,17 +61,9 @@ h2 {
   display: flex;
   text-align: center;
 }
-.sp-menu {
-  display:none;
-}
 
-.modal {
-  display: none;
-}
-
-.modal ul {
-  display: flex;
-  flex-direction: column;
+.header ul li a {
+  text-decoration: none;
 }
 
 @media (max-width:768px){
@@ -262,6 +254,11 @@ header ul li:nth-of-type(2) p{
 }
 
 /*about*/
+.about a {
+  color: #000;
+  text-decoration: none;
+}
+
 .about a .box6:hover {
   background-color: #D9211C;
   z-index: 100;
