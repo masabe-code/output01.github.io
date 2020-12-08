@@ -504,7 +504,7 @@ header ul li:nth-of-type(2) p{
   padding: 10px 0;
 }
 
-@media (max-width: 464px){
+@media (max-width: 768px){
   .link {
     padding: 0;
   }
